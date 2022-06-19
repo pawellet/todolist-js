@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>to do app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <div class="App">
+        <div class="addTask__Container">
+            <h2 class="addTask">Dodaj zadanie</h2>
+            <label htmlFor="newTask">
+                <input type="text" name="addTask" placeholder="...wpisz zadanie" data-input />
+                <button type="submit" class="submitButton" data-btn>Dodaj zadanie</button>
+            </label>
+        </div>
+
+        <div class="tasksToDo__Container">
+            <h2 class="title">Zadania do zrobienia</h2>
+            <ul class="taskToDoList"></ul>
+        </div>
+
+        <div class="info"></div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
